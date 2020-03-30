@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../js/zodiaco.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+
+  </head>
+  <body>
+    <header>
+      <p>Actividad 3.1</p>
+    </header>
+
+  <div class="contenedor_superior">
+      <h1>Signo del Zodiaco</h1>
+
+        <form >
+          <label id="texto">Ingrese su fecha:</label>
+          <input id="entradaFecha" type="date" name="txtFec" maxlength="10" size="12"/>
+          <input id="boton" type="button" onClick="validaFechaMenor(txtFec);" value="Ok"/>
+        </form>
+        <div id="contenedor">
+          <img id="img"/>
+          <p id="Nombre"></p>
+          <p id="Numero"></p>
+          <p id="Color"></p>
+        </div>
+        <form action="../index.html">
+            <button >Regresar</button>
+        </form>
+  </div>
+
+  </body>
+</html>
